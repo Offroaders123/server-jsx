@@ -9,7 +9,8 @@ import Date from "./demo-jsx/component.js";
 <Date/>
 <MyButton/>
 <BigList/>
-{import("./demo-jsx/template.js")}
+{/* Templates, not going to use this */}
+{/* {import("./demo-jsx/template.js")} */}
 
 </body>
 </html>
