@@ -1,5 +1,3 @@
-import { createSignal } from "solid-js";
+// This is a template rendered on the server
 
-const [count, setCount] = createSignal<number>(0);
-
-<button onclick={() => setCount(count => count + 1)}>Counter: {count()}</button>
+<button>Year: {new Date().getFullYear()}</button>
