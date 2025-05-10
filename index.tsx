@@ -1,5 +1,3 @@
-#!DOCTYPE html
-
 import { BigList, Date } from "./demo-jsx/component.js";
 
 export default function App() {
