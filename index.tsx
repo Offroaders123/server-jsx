@@ -1,6 +1,7 @@
+#!DOCTYPE html
+
 import { BigList, Date } from "./demo-jsx/component.js";
 
-// @DOCTYPE html
 <html>
 <body>
 
