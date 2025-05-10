@@ -2,7 +2,8 @@
 
 import { BigList, Date } from "./demo-jsx/component.js";
 
-export default
+export default function App() {
+  return (
 <html>
 <body>
 
@@ -12,3 +13,5 @@ export default
 
 </body>
 </html>
+  );
+}
