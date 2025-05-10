@@ -7,8 +7,6 @@ import Date from "./demo-jsx/component.js";
 {"My first PHP script!"}
 <Date/>
 <BigList/>
-{/* Templates, not going to use this */}
-{/* {import("./demo-jsx/template.js")} */}
 
 </body>
 </html>
