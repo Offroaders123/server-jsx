@@ -5,7 +5,7 @@ const index: string = argv.at(2) ?? ((): never =>
   { throw new Error(`Usage: ${argv.at(1)!} <app-root>`); })();
 
 const server: Server = createServer(async (_request, response) => {
-  const html: string = (await import(index)).default;
+  const html: string = (await import(`${index}?${Math.random()}`)).default;
   console.log(html);
 
   response.writeHead(200, { "Content-Type": "text/html" });
