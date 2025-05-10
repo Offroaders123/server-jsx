@@ -1,13 +1,12 @@
 import { createServer, type Server } from "node:http";
-// import { argv } from "node:process";
-import Index from "./index.js";
+import { argv } from "node:process";
 
-// const index: string = argv.at(2) ?? ((): never =>
-//   { throw new Error(`Usage: ${argv.at(1)!} <app-root>`); })();
+const index: string = argv.at(2) ?? ((): never =>
+  { throw new Error(`Usage: ${argv.at(1)!} <app-root>`); })();
 
 const server: Server = createServer(async (_request, response) => {
-  const html: string = await Index;
-  // console.log(html);
+  const html: string = (await import(index)).default;
+  console.log(html);
 
   response.writeHead(200, { "Content-Type": "text/html" });
   // This needs to be read from the #!hashbang
