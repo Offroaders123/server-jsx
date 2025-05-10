@@ -2,6 +2,7 @@
 
 import { BigList, Date } from "./demo-jsx/component.js";
 
+export default
 <html>
 <body>
 
