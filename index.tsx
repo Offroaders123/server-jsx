@@ -6,6 +6,7 @@ export default function App() {
     <body>
 
     {"My first PHP script!"}
+    {"Live updates, happening in real time!"}
     <Date/>
     <BigList/>
 
