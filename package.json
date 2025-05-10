@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "solid-js": "^1.9.6"
+    "@kitajs/html": "^4.2.9"
   },
   "devDependencies": {
+    "@kitajs/ts-html-plugin": "^4.1.1",
     "@types/node": "^22.15.14",
     "typescript": "^5.8.3"
   }

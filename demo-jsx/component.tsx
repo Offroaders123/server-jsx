@@ -10,8 +10,8 @@ export function Date() {
 
 export function BigList() {
   return (
-    Array.from({ length: 40 }, () =>
+    <>{Array.from({ length: 40 }, () =>
       <em><code>{Math.random()}</code></em>
-    )
+    )}</>
   );
 }
