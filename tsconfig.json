@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    // "rootDir": "./",
-    // "outDir": "./dist",
     "module": "NodeNext",
     "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
     "isolatedModules": true,
     "jsx": "react-jsx",
     "jsxImportSource": "@kitajs/html",
